@@ -19,6 +19,7 @@ const loading = reactive({
 
 export const useTeacher = () => {
   const yourDatabase = 'teachers'
+  
 
   async function getAllTeacher() {
     loading.allTeacher = true
